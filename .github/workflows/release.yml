@@ -48,7 +48,7 @@ jobs:
       - name: Release Binary
         shell: bash
         run: |
-          PROJECT_NAME="pyszczek"
+          PROJECT_NAME="libpyszczek"
           BIN_SUFFIX=""
           if [[ "${{ matrix.runner }}" == "ubuntu-latest" ]]; then
             BIN_SUFFIX=".so"
