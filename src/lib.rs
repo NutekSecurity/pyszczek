@@ -11,8 +11,7 @@ use std::os::raw::c_char;
 ///
 #[no_mangle]
 pub extern "C" fn nutek() -> *const c_char {
-    let pyszczek = r#"
- /\_/\  |
+    let pyszczek = r#" /\_/\  |
 ( o.o ) o
  > ^ <
 "#;
@@ -44,8 +43,7 @@ mod tests {
             let s = cs.into_string().unwrap();
             assert_eq!(
                 s,
-                r#"
- /\_/\  |
+                r#" /\_/\  |
 ( o.o ) o
  > ^ <
 "#
