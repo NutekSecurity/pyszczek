@@ -1,0 +1,15 @@
+[package]
+authors = ["Szymon Bronisław Błaszczyński <neosb@nuteksecurity.com>"]
+description = "C compatible library to show an animal face"
+documentation = "https://docs.rs/pyszczek"
+license = "MIT OR Apache-2.0"
+keywords = ["face", "animal", "c", "rust", "ffi"]
+categories = ["library"]
+name = "pyszczek"
+version = "0.1.0"
+edition = "2021"
+[lib]
+name = "pyszczek"
+crate-type = ["cdylib"]
+
+[dependencies]
