@@ -58,6 +58,7 @@ jobs:
           fi
           if [[ "${{ matrix.runner }}" == "windows-latest" ]]; then
             BIN_SUFFIX=".dll"
+            PROJECT_NAME="pyszczek"
           fi
 
           # The built binary output location
