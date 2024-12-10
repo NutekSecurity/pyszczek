@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 keywords = ["face", "animal", "c", "rust", "ffi"]
 categories = ["development-tools"]
 name = "pyszczek"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 [lib]
 name = "pyszczek"
