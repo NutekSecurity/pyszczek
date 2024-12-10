@@ -34,4 +34,4 @@ println!("{}", face);
 ```
 
 To use in your Ruby project, use above example - top of the file with library
-downloaded from [releases](https://github.com/neosb/pyszczek/releases).
+downloaded from [releases](https://github.com/nuteksecurity/pyszczek/releases).
