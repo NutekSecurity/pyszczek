@@ -6,7 +6,7 @@ license = "MIT OR Apache-2.0"
 keywords = ["face", "animal", "c", "rust", "ffi"]
 categories = ["development-tools"]
 name = "pyszczek"
-version = "0.1.4"
+version = "0.1.5"
 edition = "2021"
 repository = "https://github.com/NutekSecurity/pyszczek"
 [lib]
