@@ -1,4 +1,4 @@
-name: Release with CLI apps
+name: Release
 
 on:
   push:
@@ -60,7 +60,7 @@ jobs:
             BIN_SUFFIX=".dylib"
           fi
           if [[ "${{ matrix.runner }}" == "windows-latest" ]]; then
-            BIN_SUFFIX=".exe"
+            BIN_SUFFIX=".dll"
           fi
 
           # The built binary output location
