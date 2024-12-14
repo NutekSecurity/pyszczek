@@ -6,11 +6,11 @@ license = "MIT OR Apache-2.0"
 keywords = ["face", "animal", "c", "rust", "ffi"]
 categories = ["development-tools"]
 name = "pyszczek"
-version = "0.1.6"
+version = "0.1.11"
 edition = "2021"
 repository = "https://github.com/NutekSecurity/pyszczek"
 [lib]
 name = "pyszczek"
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dependencies]
